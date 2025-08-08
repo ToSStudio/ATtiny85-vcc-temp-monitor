@@ -40,4 +40,11 @@ At the top of the sketch, you’ll find two important constants:
 #define TEMP_OFFSET   4     // Adjust this to match actual ambient temp
 #define ADC_REF       988   // Internal 1.1V reference voltage in mV (tweak per chip)
 
+🧪 How It Works
+The bandgap channel (ADC 0x0E) allows calculation of Vcc by comparing the internal 1.1V reference to the actual supply.
+
+The temperature sensor (ADC 0x0F) gives a raw ADC value that is approximately linear but varies per chip — a manual offset is used to bring it close to ambient.
+
+The EMA filter helps smooth both values while keeping RAM usage low and speed high.
+
 
