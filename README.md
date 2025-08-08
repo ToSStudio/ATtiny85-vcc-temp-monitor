@@ -50,6 +50,7 @@ Use these to calibrate against a trusted thermometer and known power supply.
 
 
 🧪 How It Works
+
 The bandgap channel (ADC 0x0E) allows calculation of Vcc by comparing the internal 1.1V reference to the actual supply.
 
 The temperature sensor (ADC 0x0F) gives a raw ADC value that is approximately linear but varies per chip — a manual offset is used to bring it close to ambient.
