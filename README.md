@@ -55,12 +55,15 @@ The temperature sensor (ADC 0x0F) gives a raw ADC value that is approximately li
 filtered = (filtered * (EMA_DIVISOR - 1) + raw) / EMA_DIVISOR;
 ```
 
+The EMA filter helps smooth both values while keeping RAM usage low and speed high.
+
+
 🧵 License
 MIT License — free to use, modify, and share. Attribution appreciated.
 
 💡 Author
 Created by ToS with technical input from ChatGPT.
 
-The EMA filter helps smooth both values while keeping RAM usage low and speed high.
+
 
 
