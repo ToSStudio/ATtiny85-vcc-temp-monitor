@@ -30,7 +30,7 @@ No external components or sensors are needed — just the microcontroller and Se
 - Temp: 25.3 °C | Vcc: 3.269 V
 - Temp: 25.3 °C | Vcc: 3.270 V
 
-- 
+
 ---
 
 ## ⚙️ Configuration
