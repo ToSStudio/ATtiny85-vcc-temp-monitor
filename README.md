@@ -17,6 +17,7 @@ No external components or sensors are needed — just the microcontroller and Se
 ## 🧰 Requirements
 
 - ATtiny85 (tested with 8 MHz internal clock)
+- µC must be flashed with the Spence Konde Optiboot bootloader to understand ADC-channels
 - Serial connection (e.g., via USB-Serial adapter, TinyUSB board, or similar)
 - LED on pin 4 (optional, for visual heartbeat)
 
@@ -48,6 +49,12 @@ Use these to calibrate against a trusted thermometer and known power supply.
 The bandgap channel (ADC 0x0E) allows calculation of Vcc by comparing the internal 1.1V reference to the actual supply.
 
 The temperature sensor (ADC 0x0F) gives a raw ADC value that is approximately linear but varies per chip — a manual offset is used to bring it close to ambient.
+
+🧵 License
+MIT License — free to use, modify, and share. Attribution appreciated.
+
+💡 Author
+Created by ToS with technical input from ChatGPT.
 
 The EMA filter helps smooth both values while keeping RAM usage low and speed high.
 
