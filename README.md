@@ -23,9 +23,9 @@ No external components or sensors are needed — just the microcontroller and Se
 ---
 
 ## 📷 Example Output
-ATTiny showing Vcc and Temp in °C
-disregard the first 20 or so values of the output
-Temp: 25.4 °C | Vcc: 3.274 V
-Temp: 25.3 °C | Vcc: 3.269 V
-Temp: 25.3 °C | Vcc: 3.270 V
+- ATTiny showing Vcc and Temp in °C
+- disregard the first 20 or so values of the output
+- Temp: 25.4 °C | Vcc: 3.274 V
+- Temp: 25.3 °C | Vcc: 3.269 V
+- Temp: 25.3 °C | Vcc: 3.270 V
 
