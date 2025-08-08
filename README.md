@@ -29,3 +29,15 @@ No external components or sensors are needed — just the microcontroller and Se
 - Temp: 25.3 °C | Vcc: 3.269 V
 - Temp: 25.3 °C | Vcc: 3.270 V
 
+- 
+---
+
+## ⚙️ Configuration
+
+At the top of the sketch, you’ll find two important constants:
+
+```cpp
+#define TEMP_OFFSET   4     // Adjust this to match actual ambient temp
+#define ADC_REF       988   // Internal 1.1V reference voltage in mV (tweak per chip)
+
+
