@@ -51,4 +51,7 @@ The temperature sensor (ADC 0x0F) gives a raw ADC value that is approximately li
 
 The EMA filter helps smooth both values while keeping RAM usage low and speed high.
 
-
+```cpp
+// EMA: smoothing = (old * (N-1) + new) / N
+filtered = (filtered * (EMA_DIVISOR - 1) + raw) / EMA_DIVISOR;
+```
