@@ -25,7 +25,7 @@ No external components or sensors are needed — just the microcontroller and Se
 ## 🧰 Requirements
 
 - ATtiny85 (tested with 8 MHz internal clock)
-- µC must be flashed with the Spence Konde Optiboot bootloader to understand ADC-channels
+- µC must be flashed with the Spence Konde Optiboot bootloader to assign correct ADC-channels
 - Serial connection (e.g., via USB-Serial adapter, TinyUSB board, or similar)
 - LED on pin 4 (optional, for visual heartbeat)
 
