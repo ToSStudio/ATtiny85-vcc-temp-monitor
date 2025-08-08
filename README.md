@@ -1,9 +1,11 @@
 # ATtiny85 Vcc and Temperature Monitor (No External Parts)
 
-[![Platform: ATtiny85](https://img.shields.io/badge/platform-ATtiny85-orange)](#)
-[![Arduino](https://img.shields.io/badge/made%20with-Arduino-blue)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Spence Konde Core](https://img.shields.io/badge/core-Spence%20Konde-green)](https://github.com/SpenceKonde/ATTinyCore)
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/platform-ATtiny85-orange"></a>
+  <a href="#"><img src="https://img.shields.io/badge/made%20with-Arduino-blue"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+  <a href="https://github.com/SpenceKonde/ATTinyCore"><img src="https://img.shields.io/badge/core-Spence%20Konde-green"></a>
+</p>
 
 
 This project reads the **supply voltage (Vcc)** and **internal temperature sensor** of an ATtiny85 using only its built-in ADC channels.  
