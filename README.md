@@ -67,10 +67,10 @@ The temperature sensor (ADC 0x0F) gives a raw ADC value that is approximately li
 The EMA filter helps smooth both values while keeping RAM usage low and speed high.
 
 
-🧵 License
+🧵 License:
 MIT License — free to use, modify, and share. Attribution appreciated.
 
-💡 Author
+💡 Author:
 Created by ToS with technical input from ChatGPT.
 
 
