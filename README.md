@@ -38,8 +38,12 @@ No external components or sensors are needed — just the microcontroller and Se
 At the top of the sketch, you’ll find two important constants:
 
 ```cpp
-#define TEMP_OFFSET   4     // Adjust this to match actual ambient temp
-#define ADC_REF       988   // Internal 1.1V reference voltage in mV (tweak per chip)
+// This holds the Temp-correction-coefficient
+// common values: 300 - 318. The lower the value the higher the output
+#define TEMP_REF 308      // Temp coefficient
+
+// adjust ADC_REF. The lower the value the higher the output
+#define ADC_REF 988       // 1.1V internal reference in mV
 ```
 Use these to calibrate against a trusted thermometer and known power supply.
 
