@@ -47,7 +47,7 @@ At the top of the sketch, you’ll find two important constants:
 
 ```cpp
 // This holds the Temp-correction-coefficient
-// common values: 300 - 318. The lower the value the higher the output
+// common values: 300 - 318. The higher the value the higher the output
 #define TEMP_REF 308      // Temp coefficient
 
 // adjust ADC_REF. The lower the value the higher the output
