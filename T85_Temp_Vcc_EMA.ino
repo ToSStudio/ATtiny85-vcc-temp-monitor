@@ -9,7 +9,7 @@
 #define TEMP_REF 308      // Temp coefficient
 
 // adjust ADC_REF. The higher the value the higher the output
-#define ADC_REF 988       // 1.1V internal reference in mV
+#define ADC_REF 1001       // 1.1V internal reference in mV
 
 // ===============
 #define VBG_CHANNEL  0x0E // Bandgap reference channel
@@ -87,4 +87,5 @@ void loop() {
   digitalWrite (4, LOW);
 
 }
+
 
